@@ -11,6 +11,11 @@ export default {
         primaryBtm: "#D76125", 
         middleBtm: "#F9A825", 
       },
+      fontFamily: {
+        kanit: ['Kanit', 'sans-serif'],
+        oswald: ['Oswald', 'sans-serif'],
+        helveticaNeue: ['Helvetica Neue', 'Arial', 'sans-serif'],
+      },
     },
   },
   plugins: [],
