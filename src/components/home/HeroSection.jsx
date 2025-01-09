@@ -1,0 +1,11 @@
+import React from 'react'
+
+function HeroSection() {
+  return (
+    <div>
+      dssdds
+    </div>
+  )
+}
+
+export default HeroSection
