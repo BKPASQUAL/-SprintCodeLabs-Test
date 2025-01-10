@@ -7,7 +7,7 @@ import user3 from "../../assets/Images/user3.jpg";
 
 function HeroSection() {
   return (
-    <div className="h-[92vh] w-full bg-bgcolour pt-20 px-6 md:px-[17%]">
+    <div className="h-screen w-full bg-bgcolour pt-48 px-6 md:px-[17%]">
       <div className="text-[50px] md:text-[145px] leading-none text-white font-extrabold flex flex-col w-full m-0 md:space-y-[0px] lg:space-y-[-10px] p-0">
         <div className="font-helveticaNeue">MARKETING MAKING</div>
         <h1 className="font-helveticaNeue">WITH XMM.</h1>
