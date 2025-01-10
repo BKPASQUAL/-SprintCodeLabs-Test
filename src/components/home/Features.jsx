@@ -24,7 +24,7 @@ function Features() {
         <div className="flex ">
           <div className="h-[420px] w-80  border-r-2 border-b-2 border-l-2 border-[#382B63] p-4 flex flex-col justify-between">
             <div className="">
-              03 <br />
+              01 <br />
               Ecosystem-Redefined
             </div>
             <div>
@@ -61,8 +61,8 @@ function Features() {
           </div>
           <div className="h-[420px] w-80  border-r-2 border-b-2  border-[#382B63] p-4 flex flex-col justify-between pb-9">
             <div className="">
-              02 <br />
-              Biggest Community
+              03 <br />
+              Ecosystem-Redefined
             </div>
             <div>
               <img src={xmmIcon3} alt="xmmIcon3" className="h-20 w-20" />

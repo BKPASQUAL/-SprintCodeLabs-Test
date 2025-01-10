@@ -27,19 +27,19 @@ function HeroSection() {
               <img
                 src={user1}
                 alt="user1"
-                className="h-10 w-10 rounded-full border-2 border-white absolute"
+                className="h-10 w-10 rounded-full   absolute"
                 style={{ left: "0", zIndex: "10" }}
               />
               <img
                 src={user2}
                 alt="user2"
-                className="h-10 w-10 rounded-full border-2 border-white absolute"
+                className="h-10 w-10 rounded-full   absolute"
                 style={{ left: "30px", zIndex: "20" }}
               />
               <img
                 src={user3}
                 alt="user3"
-                className="h-10 w-10 rounded-full border-2 border-white absolute"
+                className="h-10 w-10 rounded-full   absolute"
                 style={{ left: "55px", zIndex: "30" }}
               />
             </div>
