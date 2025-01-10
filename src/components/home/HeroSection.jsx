@@ -4,7 +4,7 @@ import PrimaryButton from "../buttons/PrimaryButton";
 
 function HeroSection() {
   return (
-    <div className="h-screen w-full bg-bgcolour pt-28  px-[18%]">
+    <div className="h-[92vh] w-full bg-bgcolour pt-10  px-[18%]">
       <div className="text-[145px] text-white font-extrabold flex flex-col w-full m-0 space-y-0 p-0">
         <div className="m-0 p-0 mb-[-70px] font-helveticaNeue text-nowrap">
           MARKETING MAKING

@@ -4,8 +4,8 @@ import PrimaryButton from "../buttons/PrimaryButton";
 
 function Navbar() {
   return (
-    <div className="flex flex-row justify-between w-full items-center px-32 h-20 bg-bgcolour border-b-2 border-black fixed z-40">
-      <div className="w-1/4 border-r-2 border-black h-20  flex items-center justify-end pr-36">
+    <div className="flex flex-row justify-between w-full items-center px-32 h-20 bg-bgcolour border-b-2 border-[#784FFF]  z-50">
+      <div className="w-1/4 border-r-2 border-[#784FFF] h-20  flex items-center justify-end pr-36">
         <img
           src={logo}
           alt="logo"
@@ -19,7 +19,7 @@ function Navbar() {
         <div>Roadmap</div>
         <div>FAQ</div>
       </div>
-      <div className="w-1/4 border-l-2 border-black h-20  flex items-center justify-start pl-20">
+      <div className="w-1/4 border-l-2 border-[#784FFF] h-20  flex items-center justify-start pl-20">
         <PrimaryButton buttonName="Buy Token"/>
       </div>
     </div>
