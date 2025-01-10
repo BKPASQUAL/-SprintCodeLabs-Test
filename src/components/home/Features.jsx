@@ -10,7 +10,7 @@ function Features() {
         FEATURES
       </div>
       <div className="flex">
-        <div className="h-96 flex flex-col justify-between w-[28%] py-4">
+        <div className="h-[420px] flex flex-col justify-between w-[28%] py-4">
           <div className="text-4xl font-semibold">
             Features of X <br /> MARKET MAKER
           </div>
@@ -22,7 +22,7 @@ function Features() {
           </div>
         </div>
         <div className="flex ">
-          <div className="h-96 w-72  border-r-2 border-b-2 border-l-2 border-[#382B63] p-4 flex flex-col justify-between">
+          <div className="h-[420px] w-80  border-r-2 border-b-2 border-l-2 border-[#382B63] p-4 flex flex-col justify-between">
             <div className="">
               03 <br />
               Ecosystem-Redefined
@@ -39,7 +39,7 @@ function Features() {
               </p>
             </div>
           </div>
-          <div className="h-96 w-72 border-r-2 border-b-2 border-t-2 border-[#382B63] p-4 flex flex-col justify-between">
+          <div className="h-[420px] w-80 border-r-2 border-b-2 border-t-2 border-[#382B63] p-4 flex flex-col justify-between">
             <div className="">
               02 <br />
               Biggest Community
@@ -59,7 +59,7 @@ function Features() {
               </p>
             </div>
           </div>
-          <div className="h-96 w-72  border-r-2 border-b-2  border-[#382B63] p-4 flex flex-col justify-between pb-9">
+          <div className="h-[420px] w-80  border-r-2 border-b-2  border-[#382B63] p-4 flex flex-col justify-between pb-9">
             <div className="">
               02 <br />
               Biggest Community

@@ -13,7 +13,7 @@ function AboutUs() {
           className="w-[500px] h-[500px] mt-20 ml-60"
         />
       </div>
-      <div className="w-[55%] h-full flex flex-col">
+      <div className="w-[55%] h-full flex flex-col mt-20">
         <div className="text-xs border-2 border-white rounded-full p-1 px-2 w-20 text-center">
           ABOUT US
         </div>

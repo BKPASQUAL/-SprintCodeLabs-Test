@@ -23,10 +23,25 @@ function HeroSection() {
           </div>
           <div className="flex mt-8">
             <PrimaryButton buttonName="Join Telegram " />
-            <div className="flex ml-6 ">
-              <img src={user1} alt="user1" className="h-10 rounded-full " />
-              <img src={user2} alt="user1" className="h-10 rounded-full " />
-              <img src={user3} alt="user1" className="h-10 rounded-full " />
+            <div className="flex ml-6 relative w-32">
+              <img
+                src={user1}
+                alt="user1"
+                className="h-10 w-10 rounded-full border-2 border-white absolute"
+                style={{ left: "0", zIndex: "10" }}
+              />
+              <img
+                src={user2}
+                alt="user2"
+                className="h-10 w-10 rounded-full border-2 border-white absolute"
+                style={{ left: "30px", zIndex: "20" }}
+              />
+              <img
+                src={user3}
+                alt="user3"
+                className="h-10 w-10 rounded-full border-2 border-white absolute"
+                style={{ left: "55px", zIndex: "30" }}
+              />
             </div>
           </div>
           <div className="text-3xl font-medium text-white mt-8">
