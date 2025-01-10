@@ -4,8 +4,8 @@ import PrimaryButton from "../buttons/PrimaryButton";
 
 function HeroSection() {
   return (
-    <div className="h-screen w-full bg-bgcolour py-10 px-80">
-      <div className="text-[140px] text-white font-extrabold flex flex-col w-full m-0 space-y-0 p-0">
+    <div className="h-screen w-full bg-bgcolour pt-28  px-[18%]">
+      <div className="text-[145px] text-white font-extrabold flex flex-col w-full m-0 space-y-0 p-0">
         <div className="m-0 p-0 mb-[-70px] font-helveticaNeue text-nowrap">
           MARKETING MAKING
         </div>
@@ -28,7 +28,7 @@ function HeroSection() {
           <img
             src={heroImg}
             alt="heroImg"
-            className="w-[500px] h-[500px] object-cover absolute top-[-140px] right-[50px]"
+            className="w-[500px] h-[500px] object-cover absolute top-[-140px] right-[-10px]"
           />
         </div>
       </div>
