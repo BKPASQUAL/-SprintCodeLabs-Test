@@ -6,9 +6,9 @@ function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <div className="h-20 bg-bgcolour fixed top-0 left-0 w-full shadow-md z-50 flex justify-between items-center px-4 sm:px-6 md:px-8 lg:px-32 border-b-2 border-[#784FFF]">
+    <div className="h-20 bg-bgcolour fixed top-0 left-0 w-full z-50 flex justify-between items-center px-4 sm:px-6 md:px-8 lg:px-32 border-b-2 border-[#784FFF]">
       {/* Logo Section */}
-      <div className="w-1/4 flex items-center">
+      <div className="w-1/4 border-r-2 border-[#784FFF] h-20 flex items-center justify-end pr-10 md:pr-40">
         <img
           src={logo}
           alt="logo"
@@ -26,7 +26,7 @@ function Navbar() {
       </div>
 
       {/* Primary Button for Desktop & Tablet */}
-      <div className="hidden md:flex w-1/4 justify-end">
+      <div className="w-1/4 border-l-2 border-[#784FFF]  hidden  lg:block h-20 flex items-center justify-start pl-10 md:pl-20">
         <PrimaryButton buttonName="Buy Token" />
       </div>
 
@@ -48,9 +48,7 @@ function Navbar() {
               strokeLinejoin="round"
               strokeWidth="2"
               d={
-                isMenuOpen
-                  ? "M6 18L18 6M6 6l12 12"
-                  : "M4 6h16M4 12h16M4 18h16"
+                isMenuOpen ? "M6 18L18 6M6 6l12 12" : "M4 6h16M4 12h16M4 18h16"
               }
             />
           </svg>
@@ -84,12 +82,12 @@ function Navbar() {
         </button>
 
         <div className="cursor-pointer text-lg">Home</div>
-        <div className="cursor-pointer text-lg  text-nowrap">About Us</div>
+        <div className="cursor-pointer text-lg text-nowrap">About Us</div>
         <div className="cursor-pointer text-lg">Tokenomics</div>
         <div className="cursor-pointer text-lg">Roadmap</div>
         <div className="cursor-pointer text-lg">FAQ</div>
 
-        <div className="mt-4">
+        <div className="mt-4 ">
           <PrimaryButton buttonName="Buy Token" />
         </div>
       </div>
