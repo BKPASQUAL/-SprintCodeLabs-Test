@@ -12,7 +12,7 @@ function Home() {
       <HeroSection />
       <Arrow />
       <AboutUs />
-      {/* <Features/> */}
+      <Features/>
     </div>
   );
 }
