@@ -3,7 +3,7 @@ import arrow from "../../assets/Images/arrow.png";
 
 function Arrow() {
   return (
-    <div className="relative flex justify-center items-center w-full z-50">
+    <div className="relative flex justify-center items-center w-full z-30">
       <div
         className="absolute w-44 h-44 flex justify-center items-center rounded-full"
         style={{
