@@ -5,7 +5,7 @@ import PrimaryButton from "../buttons/PrimaryButton";
 function Navbar() {
   return (
     <div className="flex flex-row justify-between w-full items-center px-32 h-20 bg-bgcolour border-b-2 border-[#784FFF]  z-50">
-      <div className="w-1/4 border-r-2 border-[#784FFF] h-20  flex items-center justify-end pr-36">
+      <div className="w-1/4 border-r-2 border-[#784FFF] h-20  flex items-center justify-end pr-40">
         <img
           src={logo}
           alt="logo"
