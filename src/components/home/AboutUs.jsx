@@ -1,6 +1,7 @@
 import React from "react";
 import img from "../../assets/Images/xmm-img1.png";
 import PrimaryButton from "../buttons/PrimaryButton";
+import tics from "../../assets/Images/xmm-tick.png";
 
 function AboutUs() {
   return (
@@ -13,7 +14,7 @@ function AboutUs() {
         />
       </div>
       <div className="w-[55%] h-full flex flex-col">
-        <div className="text-xs border-2 border-neutral-950 rounded-full p-1 px-2 w-20">
+        <div className="text-xs border-2 border-white rounded-full p-1 px-2 w-20 text-center">
           ABOUT US
         </div>
         <div className="text-5xl font-medium mt-2">
@@ -21,15 +22,25 @@ function AboutUs() {
         </div>
         <div className="text-base mt-4">
           The main advantage of supporting $XMM is the project is focused <br />
-          on creating Volume and Market Making through. XMM empowers<br />
+          on creating Volume and Market Making through. XMM empowers
+          <br />
           businesses to creative dynamic content target specific.
         </div>
-        <div className="mt-4 flex space-x-16">
-          <div>Market</div>
-          <div>Volume</div>
-          <div>Trend</div>
+        <div className="mt-4 flex space-x-12">
+          <div className="flex items-center ">
+            <img src={tics} alt="tics" className="mr-4" />
+            Market
+          </div>
+          <div className="flex items-center ">
+            <img src={tics} alt="tics" className="mr-4" />
+            Volume
+          </div>
+          <div className="flex items-center ">
+            <img src={tics} alt="tics" className="mr-4" />
+            Trend
+          </div>
         </div>
-        <div className="flex mt-4">
+        <div className="flex mt-8">
           <PrimaryButton buttonName="Read Whitepaper" />
         </div>
       </div>

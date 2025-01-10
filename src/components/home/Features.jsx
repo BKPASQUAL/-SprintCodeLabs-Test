@@ -6,7 +6,7 @@ import xmmIcon3 from "../../assets/Images/xmm-icon3.png";
 function Features() {
   return (
     <div className="py-20 px-80">
-      <div className="text-xs border-2 border-neutral-950 rounded-full p-1 px-2 w-20 text-center mb-4">
+      <div className="text-xs border-2 border-white rounded-full p-1 px-2 w-20 text-center mb-4">
         FEATURES
       </div>
       <div className="flex">

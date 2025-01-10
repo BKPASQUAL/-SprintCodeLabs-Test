@@ -1,6 +1,9 @@
 import React from "react";
 import heroImg from "../../assets/Images/xmm-hero.png";
 import PrimaryButton from "../buttons/PrimaryButton";
+import user1 from "../../assets/Images/user1.jpg";
+import user2 from "../../assets/Images/user2.jpg";
+import user3 from "../../assets/Images/user3.jpg";
 
 function HeroSection() {
   return (
@@ -19,10 +22,19 @@ function HeroSection() {
             specific demographics,and optimize their digital presence
           </div>
           <div className="flex mt-8">
-            <PrimaryButton buttonName="Join Telegram" />
+            <PrimaryButton buttonName="Join Telegram " />
+            <div className="flex ml-6 ">
+              <img src={user1} alt="user1" className="h-10 rounded-full " />
+              <img src={user2} alt="user1" className="h-10 rounded-full " />
+              <img src={user3} alt="user1" className="h-10 rounded-full " />
+            </div>
           </div>
-          <div className="text-3xl font-medium text-white mt-8">OUR HAPPY CUSTOMERS</div>
-          <div className="text-lg text-white mt-4">Our happy customers are at the heart <br/> of everythings we do</div>
+          <div className="text-3xl font-medium text-white mt-8">
+            OUR HAPPY CUSTOMERS
+          </div>
+          <div className="text-lg text-white mt-4">
+            Our happy customers are at the heart <br /> of everythings we do
+          </div>
         </div>
         <div className="">
           <img
