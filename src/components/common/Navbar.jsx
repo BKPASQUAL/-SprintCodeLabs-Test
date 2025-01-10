@@ -26,7 +26,7 @@ function Navbar() {
       </div>
 
       {/* Primary Button for Desktop & Tablet */}
-      <div className="w-1/4 border-l-2 border-[#784FFF]  hidden  lg:block h-20 flex items-center justify-start pl-10 md:pl-20">
+      <div className="w-1/4 border-l-2 border-[#784FFF]   hidden  lg:block h-20  lg:flex items-center justify-start pl-10 md:pl-20  ">
         <PrimaryButton buttonName="Buy Token" />
       </div>
 
