@@ -11,8 +11,8 @@ function Home() {
       <Navbar />
       <HeroSection />
       <Arrow />
-      <AboutUs />
-      <Features/>
+      {/* <AboutUs />
+      <Features/> */}
     </div>
   );
 }
