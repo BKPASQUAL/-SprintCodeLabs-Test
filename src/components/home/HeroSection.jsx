@@ -15,7 +15,7 @@ function HeroSection() {
 
       <div className="flex flex-col md:flex-row justify-between relative">
         <div>
-          <div className="text-white text-lg md:text-xl">
+          <div className="text-[#e1d6ff] text-lg md:text-xl">
             XMM empowers businesses to create dynamic content, target
             <br />
             specific demographics, and optimize their digital presence

@@ -17,13 +17,13 @@ function AboutUs() {
 
       {/* Content Section */}
       <div className="w-full md:w-[55%] h-full flex flex-col mt-10 md:mt-20 text-center md:text-left">
-        <div className="text-xs border-2 border-white rounded-full p-1 px-2 w-20 mx-auto md:mx-0 text-center text-nowrap">
+        <div className="text-xs border-2 border-[#4b4867] rounded-full p-1 px-2 w-20 mx-auto md:mx-0 text-center text-nowrap">
           ABOUT US
         </div>
         <div className="text-2xl md:text-5xl font-medium mt-6">
           Best Ever Token Designed <br className="hidden md:block" /> For Remarkable Success
         </div>
-        <div className="text-sm md:text-base mt-6">
+        <div className="text-sm md:text-base mt-6 text-[#6f6a90]">
           The main advantage of supporting $XMM is the project is focused
           <br className="hidden md:block" />
           on creating Volume and Market Making through. XMM empowers

@@ -6,7 +6,7 @@ import xmmIcon3 from "../../assets/Images/xmm-icon3.png";
 function Features() {
   return (
     <div className="py-20 px-10 md:px-20 lg:px-80">
-      <div className="text-xs border-2 border-white rounded-full p-1 px-2 w-20  mb-4">
+      <div className="text-xs border-2 border-[#4b4867] rounded-full p-1 px-2 w-20  mb-4 text-center">
         FEATURES
       </div>
       <div className="flex flex-col lg:flex-row">
@@ -14,7 +14,7 @@ function Features() {
           <div className="text-2xl md:text-3xl lg:text-4xl font-semibold">
             Features of X <br /> MARKET MAKER
           </div>
-          <div className="text-sm md:text-base">
+          <div className="text-sm md:text-base text-[#6f6a90]">
             X Market Maker offers a <br /> comprehensive set of features <br />
             tailored for market participants. <br />
             Its core functionalities include <br /> real-time pricing and
@@ -29,7 +29,7 @@ function Features() {
             </div>
             <div className="flex flex-col ">
               <img src={xmmIcon1} alt="xmmIcon1" className="h-16 w-16 md:h-20 md:w-20 mb-4" />
-              <p className="text-sm md:text-base ">
+              <p className="text-sm md:text-base text-[#6f6a90] ">
                 We aim to increase the value of <br /> our currency to benefit
                 our <br />
                 community. Market Making will <br /> be key focus. We aim to
@@ -45,7 +45,7 @@ function Features() {
             </div>
             <div className="flex flex-col ">
               <img src={xmmIcon2} alt="xmmIcon2" className="h-16 w-16 md:h-20 md:w-20 mb-4" />
-              <p className="text-sm md:text-base ">
+              <p className="text-sm md:text-base text-[#6f6a90] ">
                 XMM is the First ever Crypto with <br />
                 the market-making objective <br />
                 that's being worked upon at <br />
@@ -62,7 +62,7 @@ function Features() {
             </div>
             <div className="flex flex-col ">
               <img src={xmmIcon3} alt="xmmIcon3" className="h-16 w-16 md:h-20 md:w-20 mb-4" />
-              <p className="text-sm md:text-base pb-6">
+              <p className="text-sm md:text-base pb-6 text-[#6f6a90]">
                 Our powerful token will protect <br />
                 our holders from the turbulence <br />
                 of the crypto market and help <br />
