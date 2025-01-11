@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import logo from "../../assets/Images/xmm-logo.png";
 import PrimaryButton from "../buttons/PrimaryButton";
 
-function Navbar() {
+function Navbar({ onScrollToHome, onScrollToAboutUs }) {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
@@ -18,15 +18,19 @@ function Navbar() {
 
       {/* Desktop & Tablet Menu */}
       <div className="hidden md:flex space-x-6 lg:space-x-8 w-2/4 justify-center text-white">
-        <div className="cursor-pointer">Home</div>
-        <div className="cursor-pointer">About Us</div>
+        <div className="cursor-pointer" onClick={onScrollToHome}>
+          Home
+        </div>
+        <div className="cursor-pointer" onClick={onScrollToAboutUs}>
+          About Us
+        </div>
         <div className="cursor-pointer">Tokenomics</div>
         <div className="cursor-pointer">Roadmap</div>
         <div className="cursor-pointer">FAQ</div>
       </div>
 
       {/* Primary Button for Desktop & Tablet */}
-      <div className="w-1/4 border-l-2 border-[#784FFF]   hidden  lg:block h-20  lg:flex items-center justify-start pl-10 md:pl-20  ">
+      <div className="w-1/4 border-l-2 border-[#784FFF] hidden lg:block h-20 lg:flex items-center justify-start pl-10 md:pl-20">
         <PrimaryButton buttonName="Buy Token" />
       </div>
 
@@ -81,13 +85,29 @@ function Navbar() {
           </svg>
         </button>
 
-        <div className="cursor-pointer text-lg">Home</div>
-        <div className="cursor-pointer text-lg text-nowrap">About Us</div>
+        <div
+          className="cursor-pointer text-lg"
+          onClick={() => {
+            onScrollToHome();
+            setIsMenuOpen(false); 
+          }}
+        >
+          Home
+        </div>
+        <div
+          className="cursor-pointer text-lg text-nowrap"
+          onClick={() => {
+            onScrollToAboutUs();
+            setIsMenuOpen(false); 
+          }}
+        >
+          About Us
+        </div>
         <div className="cursor-pointer text-lg">Tokenomics</div>
         <div className="cursor-pointer text-lg">Roadmap</div>
         <div className="cursor-pointer text-lg">FAQ</div>
 
-        <div className="mt-4 ">
+        <div className="mt-4">
           <PrimaryButton buttonName="Buy Token" />
         </div>
       </div>
