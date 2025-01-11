@@ -5,7 +5,7 @@ import xmmIcon3 from "../../assets/Images/xmm-icon3.png";
 
 function Features() {
   return (
-    <div className="py-20 px-10 md:px-20 lg:px-80">
+    <div className="py-20 px-10  md:px-[17%]">
       <div className="text-xs border-2 border-[#4b4867] rounded-full p-1 px-2 w-20  mb-4 text-center">
         FEATURES
       </div>
