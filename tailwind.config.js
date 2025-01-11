@@ -10,7 +10,7 @@ export default {
         bgcolour: "#7248FF",
         primaryBtm: "#D76125", 
         middleBtm: "#F9A825", 
-        darkPurple: "#01011B",
+        darkPurple: "#000319",
         midPurple: "#2A1454",
         lightPurple: "#2E1A61",
       },
@@ -20,7 +20,7 @@ export default {
         helveticaNeue: ['Helvetica Neue', 'Arial', 'sans-serif'],
       },
       gradientColorStops: {
-        'dark-purple': "#01011B",
+        'dark-purple': "#000319",
         'mid-purple': "#2A1454",
         'light-purple': "#2E1A61",
       },

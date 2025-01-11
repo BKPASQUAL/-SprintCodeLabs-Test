@@ -16,7 +16,7 @@ function Home() {
   };
 
   return (
-    <div className="bg-gradient-to-br from-[#1B0B40] via-[#281B57] to-[#3A257C] text-white">
+    <div className="bg-gradient-to-br from-[#000319]  to-[#2f1b5e] text-white">
       <Navbar
         onScrollToHome={() => scrollToSection(heroSectionRef)}
         onScrollToAboutUs={() => scrollToSection(aboutUsRef)}
